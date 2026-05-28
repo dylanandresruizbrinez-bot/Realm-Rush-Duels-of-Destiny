@@ -140,7 +140,7 @@ function spawnTroop(name, x, y, team){
     const troop = document.createElement("div");
 
     troop.classList.add("troop");
-
+troop.classList.add(team);
     troop.innerHTML = `
         <div class="hp-bar">
             <div class="hp-fill"></div>
