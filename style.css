@@ -613,3 +613,40 @@ body{
     3px solid #00eaff;
 
 }
+/* =========================================
+   HIT EFFECT
+========================================= */
+
+.hit{
+
+    animation:hitFlash 0.15s;
+
+}
+
+@keyframes hitFlash{
+
+    0%{
+
+        transform:scale(1);
+
+        filter:brightness(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.15);
+
+        filter:brightness(2);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+        filter:brightness(1);
+
+    }
+
+}
