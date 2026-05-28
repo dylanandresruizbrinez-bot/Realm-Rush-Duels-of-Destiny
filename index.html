@@ -1,0 +1,59 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realm Rush: Duels of Destiny</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="menu">
+        <h1>Realm Rush: Duels of Destiny</h1>
+        <button id="startBtn">Iniciar Batalla</button>
+    </div>
+
+    <div id="gameUI">
+
+        <div id="topBar">
+            <div id="timer">03:00</div>
+            <div id="elixirBar">
+                <div id="elixirFill"></div>
+            </div>
+        </div>
+
+        <div id="arena">
+
+            <div class="enemy-side">
+                <div class="tower enemy king"></div>
+                <div class="tower enemy left"></div>
+                <div class="tower enemy right"></div>
+            </div>
+
+            <div id="river"></div>
+
+            <div class="player-side">
+                <div class="tower player king"></div>
+                <div class="tower player left"></div>
+                <div class="tower player right"></div>
+            </div>
+
+        </div>
+
+        <div id="cardsArea">
+            <div class="card">Guerrero</div>
+            <div class="card">Arquero</div>
+            <div class="card">Mago</div>
+            <div class="card">Dragón</div>
+        </div>
+
+        <div id="battleLog"></div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+```
