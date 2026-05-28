@@ -433,3 +433,81 @@ body{
     }
 
 }
+/* =========================
+   DRAG SYSTEM
+========================= */
+
+.card.dragging{
+
+    opacity:0.5;
+
+    transform:scale(1.1);
+
+}
+
+/* =========================
+   TROOPS
+========================= */
+
+.troop{
+
+    position:absolute;
+
+    width:70px;
+    height:70px;
+
+    border-radius:50%;
+
+    background:
+    linear-gradient(
+        135deg,
+        #ffcc00,
+        #ff6600
+    );
+
+    color:white;
+
+    font-size:0.8rem;
+    font-weight:bold;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    pointer-events:none;
+
+    animation:spawnEffect 0.3s ease;
+
+    box-shadow:
+    0 0 15px orange;
+
+}
+
+/* =========================
+   SPAWN EFFECT
+========================= */
+
+@keyframes spawnEffect{
+
+    0%{
+
+        transform:
+        scale(0)
+        rotate(180deg);
+
+        opacity:0;
+
+    }
+
+    100%{
+
+        transform:
+        scale(1)
+        rotate(0deg);
+
+        opacity:1;
+
+    }
+
+}
