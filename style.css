@@ -904,3 +904,39 @@ body{
     0 0 20px cyan;
 
 }
+/* =========================================
+   PROFILE
+========================================= */
+
+.player-profile{
+
+    position:fixed;
+
+    top:20px;
+    right:20px;
+
+    width:220px;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    background:
+    rgba(0,0,0,0.5);
+
+    border:
+    2px solid #00eaff;
+
+    z-index:999;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.player-profile h3{
+
+    color:#7df9ff;
+
+    margin-bottom:10px;
+
+}
