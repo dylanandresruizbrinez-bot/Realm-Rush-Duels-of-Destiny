@@ -958,3 +958,122 @@ function addLog(message){
     log.prepend(p);
 
 }
+/* =========================================
+   LOGIN
+========================================= */
+
+#login-screen{
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+        135deg,
+        #12002b,
+        #000814
+    );
+
+    z-index:99999;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.login-box{
+
+    width:400px;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    background:
+    rgba(255,255,255,0.05);
+
+    backdrop-filter:blur(10px);
+
+    border:
+    2px solid #00eaff;
+
+    text-align:center;
+
+    box-shadow:
+    0 0 30px rgba(0,234,255,0.4);
+
+}
+
+.login-box h1{
+
+    font-size:3rem;
+
+    color:#7df9ff;
+
+    text-shadow:
+    0 0 15px cyan;
+
+}
+
+.login-box p{
+
+    margin:10px 0 30px;
+
+    color:#ffd369;
+
+}
+
+.login-box input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    outline:none;
+
+    background:#111827;
+
+    color:white;
+
+    margin-bottom:20px;
+
+    font-size:1rem;
+
+}
+
+.login-box button{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    background:#00eaff;
+
+    color:black;
+
+    transition:0.3s;
+
+}
+
+.login-box button:hover{
+
+    transform:scale(1.03);
+
+    box-shadow:
+    0 0 20px cyan;
+
+}
